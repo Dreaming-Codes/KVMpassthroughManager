@@ -16,14 +16,24 @@
     "tauridev": "Runs the Tauri app in development mode"
   },
   "dependencies": {
+    "@mdi/font": "5.9.55",
     "@tauri-apps/api": "^1.0.0-beta.8",
-    "vue": "^3.2.16"
+    "roboto-fontface": "*",
+    "vue": "^3.2.16",
+    "vuetify": "^3.0.0-alpha.0",
+    "webfontloader": "^1.0.0"
   },
   "devDependencies": {
     "@tauri-apps/cli": "^1.0.0-beta.10",
     "@vitejs/plugin-vue": "^1.9.3",
+    "@vue/cli-service": "~5.0.0-beta.3",
+    "@vuetify/vite-plugin": "^1.0.0-alpha.3",
+    "sass": "^1.38.0",
+    "sass-loader": "^10.0.0",
     "typescript": "^4.4.3",
     "vite": "^2.6.4",
-    "vue-tsc": "^0.3.0"
+    "vue-cli-plugin-vuetify": "~2.4.3",
+    "vue-tsc": "^0.3.0",
+    "vuetify-loader": "^2.0.0-alpha.0"
   }
 }
